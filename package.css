@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'SilverSouth';
+    src: url('./fonts/SilverSouthScript.ttf') format('truetype');
+}
+
+@layer utilities {
+    .font-silver {
+        font-family: 'SilverSouth', cursive;
+    }
+}
+
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.home:hover{
+    cursor: pointer;
+}
