@@ -126,3 +126,10 @@ document.getElementById("goa1").addEventListener("click", function() {
 document.getElementById("goa2").addEventListener("click", function() {
   window.open("goa2.html" , "_self"); 
 });
+
+document.querySelectorAll(".callback").forEach(function (element) {
+  element.addEventListener("click", function (event) {
+    event.stopPropagation(); // 🔒 Prevents triggering the outer div's click
+    window.open("https://packages.infinitehospitality.in", "_self");
+  });
+});
