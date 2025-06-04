@@ -42,21 +42,24 @@
   <body class="overflow-x-hidden">
     <div id="page1" class="relative w-full h-screen overflow-hidden">
       <!-- Top bar -->
-      <div
-        class="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-5 text-white backdrop-blur-md bg-zinc-500/70 shadow-md"
-      >
-        <img
-          onclick="window.location.href='index.html'"
-          src="http://infinitetrails.in/wp-content/uploads/2019/06/IT_LOGO-3.png"
-          alt=""
-          class="h-10"
-        />
-        <nav class="space-x-10 text-white">
-          <a href="#page1">Home</a>
-          <a href="#page2">Destinations</a>
-          <a href="#page5">Contact</a>
-        </nav>
-      </div>
+<div
+  id="navbar"
+  class="fixed top-0 left-0 w-full z-50 flex justify-between items-center p-5 text-white transition-all duration-300"
+>
+  <img
+    onclick="window.location.href='index.html'"
+    src="http://infinitetrails.in/wp-content/uploads/2019/06/IT_LOGO-3.png"
+    alt=""
+    class="h-10"
+  />
+  <nav class="space-x-10 text-white">
+    <a href="#page1">Home</a>
+    <a href="#page2">Destinations</a>
+    <a href="#page5">Contact</a>
+  </nav>
+</div>
+
+
 
       <!-- Background video -->
       <video
